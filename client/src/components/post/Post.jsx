@@ -9,11 +9,7 @@ export default function Post({ post }) {
     <div className="post">
       <Link to={`/post/${post._id}`} className="link">
         <div className="postWrapper">
-          {/* {post.photo && <img src={PF+post.photo} alt="" className="postImg" />} */}
-          <img 
-      src="https://st2.depositphotos.com/1001599/7206/v/950/depositphotos_72069257-stock-illustration-writing-pad-and-pen-thin.jpg"
-      alt="" className="postImg"
-      />
+          {post.photo && <img src={PF+post.photo} alt="" className="postImg" />}
           <div className="postInfo">
             <div className="postCategory">
               {post.category}
