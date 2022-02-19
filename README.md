@@ -5,5 +5,3 @@ Functionalities:
 * LOGIN & LOGOUT
 * CRUD operations on BLOG POST
 * CRUD operations on User
-
-
